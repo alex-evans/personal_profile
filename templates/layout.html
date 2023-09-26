@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Evans</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='dist/css/output.css')}}">
+</head>
+<body class="bg-neutral-1000 dark:bg-neutral-1000">
+    <header class="bg-neutral-700 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-neutral-200 text-lg font-bold">Alex Evans</a>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/career">Career</a></li>
+                    <li><a href="/side-projects">Side Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container mx-auto px-4 sm:max-w-lg md:max-w-xl lg:max-w-1xl xl:max-w-2xl">
+            {% block content %}{% endblock %}
+        </div>
+    </main>
+    <footer>
+        <!-- Future Footer content here if wanted -->
+    </footer>
+</body>
+</html>

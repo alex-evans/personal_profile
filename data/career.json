@@ -1,0 +1,152 @@
+[
+    {
+        "rank": 1,
+        "company": "VIDA",
+        "dates": "2019 - Present",
+        "title": "Senior Software Engineer",
+        "location": "Edina, MN",
+        "successes": [
+            {
+                "summary": "Architected Flagship Product Transformation",
+                "details": "Led the transformation of our flagship product from a Windows-based on premise solution to an AWS Cloud-hosted platform capable of processing hundreds of GBs of DICOM file data daily."
+            },
+            {
+                "summary": "Ongoing Collaboration with Data Science Team",
+                "details": "Works closely with the Data Science team to integrate AI models within AWS, enhancing our product’s capabilities."
+            },
+            {
+                "summary": "Successful Docker Release",
+                "details": "Quickly learned and developed a Docker release for a key partner, receiving positive feedback for delivering high-quality results."
+            },
+            {
+                "summary": "FHIR Integration:",
+                "details": "Developed proof-of-concept applications connecting to Epic and Cerner FHIR sandboxes, paving the way for possible future company initiatives."
+            },
+            {
+                "summary": "Codebase Refactoring",
+                "details": "Transformed a complex, legacy codebase plagued by spaghetti code and quick fixes into a more maintainable and readable codebase while continuously adding features and resolving issues."
+            },
+            {
+                "summary": "CI/CD Testing Integration",
+                "details": "Initiated the inclusion of unit and integration testing into the CI/CD pipeline, enhancing the confidence of releases."
+            },
+            {
+                "summary": "Version Control Migration",
+                "details": "Played a vital role in transitioning the company’s version control system from Mercurial to GitHub repositories."
+            },
+            {
+                "summary": "Engineering Improvement Initiatives",
+                "details": "Established a weekly software engineer book club and served as a mentor to multiple junior developers."
+            }
+        ],
+        "techTags": [
+            "Python",
+            "AWS",
+            "Docker",
+            "Jenkins",
+            "FHIR",
+            "JIRA",
+            "Git",
+            "GitHub",
+            "Dicom",
+            "MySQL",
+            "PostgreSQL"
+        ]
+    },
+    {
+        "rank": 2,
+        "company": "Datica",
+        "dates": "2017-2019",
+        "title": "Senior Software Engineer",
+        "location": "Minneapolis, MN",
+        "successes": [
+            {
+                "summary": "Developed and Managed Healthcare APIs",
+                "details": "Designed, developed, and maintained 65 healthcare APIs, connecting authorized applications to various health systems."
+            },
+            {
+                "summary": "Enhanced MEDITECH Service",
+                "details": "Improved the MEDITECH service by implementing a REST layer, facilitating seamless communication between applications and MEDITECH health systems."
+            },
+            {
+                "summary": "Automated Installation Routine",
+                "details": "Created an automated routine for the installation of the MEDITECH service at healthcare systems, streamlining deployment processes."
+            },
+            {
+                "summary": "Deployment",
+                "details": "Successfully brought 13 MEDITECH sites live and installed at an additional 12 MEDITECH sites, expanding product reach."
+            },
+            {
+                "summary": "Customer Support",
+                "details": "Handled customer ticket requests and collaborated with customers to identify and implement solutions, ensuring their satisfaction."
+            },
+            {
+                "summary": "Contributions to Technology and Culture",
+                "details": "Actively participated in quarterly Dev Summits to explore new technologies and approaches for product enhancement. Served as a member of the Culture Team, dedicated to cultivating a positive and desirable company culture."
+            }
+        ],
+        "techTags": [
+            "Python", 
+            "C#", 
+            ".NET", 
+            "Visual Studio", 
+            "Microsoft Teams",
+            "HL7", 
+            "FHIR",
+            "MEDITECH’s proprietary programming languages"
+        ]
+    },
+    {
+        "rank": 3,
+        "company": "MEDITECH",
+        "dates": "2011-2017",
+        "title": "Development Supervisor",
+        "location": "Minnetonka, MN",
+        "successes": [
+            {
+                "summary": "Led New Product Launch",
+                "details": "Spearheaded the development and launch of a Patient Registries / Population Health product."
+            },
+            {
+                "summary": "Team Building",
+                "details": "Built and managed the majority of the Patient Registries team, ensuring the right talent was in place for project success."
+            },
+            {
+                "summary": "Supervised Established Teams",
+                "details": "Initially oversaw an established team specializing in Physician Billing, ensuring efficient operations."
+            },
+            {
+                "summary": "Agile Transformation",
+                "details": "Played a crucial role as a member of the company’s Agile Committee, facilitating the transition of a 45-year-old company from entrenched Waterfall development methods to Agile practices."
+            }
+        ],
+        "techTags": [
+            "JIRA",
+            "Confluence"
+        ]
+    },
+    {
+        "rank": 4,
+        "company": "MEDITECH",
+        "dates": "2007-2011",
+        "title": "Development Programmer",
+        "location": "Minnetonka, MN",
+        "successes": [
+            {
+                "summary": "Mentored New Developers",
+                "details": "Provided mentorship to three newly hired programmers, aiding in their professional growth."
+            },
+            {
+                "summary": "Broadened Skills",
+                "details": "Enhanced programming expertise through active involvement in multiple projects within the complex healthcare EHR industry."
+            },
+            {
+                "summary": "Proficient Learner of Languages",
+                "details": "Acquired proficiency in various MEDITECh proprietary languages through continuous learning and development efforts."
+            }
+        ],
+        "techTags": [
+            "MEDITECH’s proprietary programming languages"
+        ]
+    }
+]

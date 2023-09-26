@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block title %}Career - Alex Evans Website{% endblock %}
+
+{% block content %}
+<section>
+    <div class="mt-8 mx-4 -space-y-px">
+        <h2 class="text-xl font-extrabold text-neutral-200 sm:text-4xl">
+            Career
+        </h2>
+        <div>
+            {% for career in careers %}
+            <div>
+                <div class="border-b border-neutral-200 my-4"></div>
+                <h3 class="mt-4 text-left text-sm text-neutral-200">
+                    <span class="font-bold">{{ career["company"] }}</span> - <span class="text-teal-500">{{ career["title"] }}</span>
+                </h3>
+                <p class="mt-2 text-left text-sm text-neutral-200">
+                    {{ career["location"] }}
+                </p>
+                <p class="mt-2 text-left text-sm text-neutral-200">
+                    {{ career["dates"] }}
+                </p>
+                <ul class="list-disc text-neutral-200 text-sm ml-4 mt-4">
+                    {% for success in career["successes"] %}
+                    <li class="mb-2"><span class="font-bold">{{ success["summary"] }}:</span> {{ success["details"] }}</li>
+                    {% endfor %}
+                </ul>
+                <p class="mt-2 text-left text-sm text-neutral-200">
+                    <strong>Tags:</strong> {{ career['techTags'] | join(', ') }}</p>
+                </p>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="border-b border-neutral-200 my-4"></div>
+        <h4 class="text-xl text-neutral-200 sm:text-2xl">
+            Education
+        </h4>
+        <p class="mt-2 text-left text-sm text-neutral-200">
+            <span class="font-bold">St. Olaf College</span> - Northfield, MN (2007)
+        </p>
+        <p class="mt-2 text-left text-sm text-neutral-200">
+            <span class="font-bold">Bachelor of Arts</span> - Mathematics, Economics and Statistics (Concentration)
+        </p>
+    </div>
+</section>
+{% endblock %}
