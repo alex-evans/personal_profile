@@ -4,8 +4,25 @@
 
 {% block content %}
 <section>
-    <div>
-        
+    <div class="mt-8 mx-4 -space-y-px"></div>
+        <h2 class="text-xl font-extrabold text-neutral-200 sm:text-4xl">
+            Side Projects
+        </h2>
+        <div>
+            <p class="mt-2 text-left text-sm text-neutral-200">
+                My day job is mainly focused on Backend technologies, using Python / AWS. These side projects are mainly focused outside of that to expand my understanding of other technologies.
+            </p>
+        </div>
+        <div class="mt-4 mb-4 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 mx-auto sm:mx-0">
+            {% for project in projects %}
+                <div class="rounded bg-neutral-900 h-48 w-48 text-sm text-center text-neutral-200 flex flex-col">
+                    <p class="mt-2"><span class="font-bold">{{ project["title"] }}</span></p>
+                    <p class="mt-8"><a href="{{ project['launchLink'] }}" class="text-teal-500 text-xs">Launch Project</a></p>
+                    <p><a href="{{ project['codeLink'] }}" class="text-xs font-bold">Code</a></p>
+                    <p class="mt-auto text-center text-xs">{{ project["tags"] | join(', ') }}</p>
+                </div>
+            {% endfor %}
+        </div>
     </div>
 </section>
 {% endblock %}

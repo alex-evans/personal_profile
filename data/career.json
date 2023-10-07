@@ -1,6 +1,6 @@
 [
     {
-        "rank": 1,
+        "rank": 4,
         "company": "VIDA",
         "dates": "2019 - Present",
         "title": "Senior Software Engineer",
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "rank": 2,
+        "rank": 3,
         "company": "Datica",
         "dates": "2017-2019",
         "title": "Senior Software Engineer",
@@ -97,7 +97,7 @@
         ]
     },
     {
-        "rank": 3,
+        "rank": 2,
         "company": "MEDITECH",
         "dates": "2011-2017",
         "title": "Development Supervisor",
@@ -126,7 +126,7 @@
         ]
     },
     {
-        "rank": 4,
+        "rank": 1,
         "company": "MEDITECH",
         "dates": "2007-2011",
         "title": "Development Programmer",

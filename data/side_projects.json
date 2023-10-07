@@ -1,0 +1,137 @@
+[
+    {
+        "rank": 15,
+        "title": "My Profile",
+        "summary": "The current webpage you're on",
+        "codeLink": "https://github.com/alex-evans/profile/tree/main",
+        "imageLink": "",
+        "launchLink": "/",
+        "tags": ["Flask", "Python", "HTML", "CSS", "Tailwindcss"]
+    },
+    {
+        "rank": 14,
+        "title": "US GDP Bar Chart",
+        "summary": "FreeCodeCamp Project",
+        "codeLink": "https://codepen.io/alcatrats/pen/JKGrvr",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/JKGrvr",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS", "D3"]
+    },
+    {
+        "rank": 13,
+        "title": "Dungeon Crawler",
+        "summary": "FreeCodeCamp Project",
+        "codeLink": "https://codepen.io/alcatrats/pen/grJgwJ",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/grJgwJ",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS"]
+    },
+    {
+        "rank": 12,
+        "title": "Game of Life",
+        "summary": "FreeCodeCamp Project",
+        "codeLink": "https://codepen.io/alcatrats/pen/oxVZRe",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/oxVZRe",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS"]
+    },
+    {
+        "rank": 11,
+        "title": "Recipe Box",
+        "summary": "FreeCodeCamp Project",
+        "codeLink": "https://codepen.io/alcatrats/pen/NNEBvz",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/NNEBvz",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS"]
+    },
+    {
+        "rank": 10,
+        "title": "Camper Leaderboard",
+        "summary": "FreeCodeCamp Project",
+        "codeLink": "https://codepen.io/alcatrats/pen/EKpNjq",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/EKpNjq",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS"]
+    },
+    {
+        "rank": 9,
+        "title": "Markdown Previewer",
+        "summary": "FreeCodeCamp Project",
+        "codeLink": "https://codepen.io/alcatrats/pen/dMemrx",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/dMemrx",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS"]
+    },
+    {
+        "rank": 8,
+        "title": "Simon",
+        "summary": "FreeCodeCamp Project",
+        "codeLink": "https://codepen.io/alcatrats/pen/VerPVY",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/VerPVY",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS"]
+    },
+    {
+        "rank": 7,
+        "title": "TicTacToe",
+        "summary": "FreeCodeCamp Project",
+        "codeLink": "https://codepen.io/alcatrats/pen/JGrJeP",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/JGrJeP",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS"]
+    },
+    {
+        "rank": 6,
+        "title": "Wikipedia Search",
+        "summary": "FreeCodeCamp Project (NOTE: results are not mine)",
+        "codeLink": "https://codepen.io/alcatrats/pen/qbmJBQ",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/qbmJBQ",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS"]
+    },
+    {
+        "rank": 5,
+        "title": "Camper News",
+        "summary": "FreeCodeCamp Project (outdated)",
+        "codeLink": "https://codepen.io/alcatrats/pen/MKJoja",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/MKJoja",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS"]
+    },
+    {
+        "rank": 4,
+        "title": "TwitchTv App",
+        "summary": "FreeCodeCamp Project (outdated)",
+        "codeLink": "https://codepen.io/alcatrats/pen/EPgExv",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/EPgExv",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS"]
+    },
+    {
+        "rank": 3,
+        "title": "Local Weather",
+        "summary": "FreeCodeCamp Project",
+        "codeLink": "https://codepen.io/alcatrats/pen/JYgXrN",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/JYgXrN",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS"]
+    },
+    {
+        "rank": 2,
+        "title": "Calculator",
+        "summary": "FreeCodeCamp Project",
+        "codeLink": "https://codepen.io/alcatrats/pen/avQQeE",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/avQQeE",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS"]
+    },
+    {
+        "rank": 1,
+        "title": "Pomodoro Timer",
+        "summary": "FreeCodeCamp Project",
+        "codeLink": "https://codepen.io/alcatrats/pen/bVjgQW",
+        "imageLink": "",
+        "launchLink": "https://codepen.io/alcatrats/full/bVjgQW",
+        "tags": ["React", "freeCodeCamp", "HTML", "CSS"]
+    }
+]
