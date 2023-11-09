@@ -3,7 +3,7 @@
         "rank": 15,
         "title": "My Profile",
         "summary": "The current webpage you're on",
-        "codeLink": "https://github.com/alex-evans/profile/tree/main",
+        "codeLink": "https://github.com/alex-evans/personal_profile",
         "imageLink": "",
         "launchLink": "/",
         "tags": ["Flask", "Python", "HTML", "CSS", "Tailwindcss"]
