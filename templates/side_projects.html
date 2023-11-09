@@ -18,7 +18,7 @@
                 <div class="rounded bg-neutral-900 h-48 w-48 text-sm text-center text-neutral-200 flex flex-col">
                     <p class="mt-2"><span class="font-bold">{{ project["title"] }}</span></p>
                     <p class="mt-8"><a href="{{ project['launchLink'] }}" class="text-teal-500 text-xs">Launch Project</a></p>
-                    <p><a href="{{ project['codeLink'] }}" class="text-xs font-bold">Code</a></p>
+                    <p class="mt-2"><a href="{{ project['codeLink'] }}" class="text-xs font-bold">View Code</a></p>
                     <p class="mt-auto text-center text-xs">{{ project["tags"] | join(', ') }}</p>
                 </div>
             {% endfor %}
